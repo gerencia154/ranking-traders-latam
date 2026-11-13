@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Si usas estos datos, cita a Trading Latam con un enlace al ranking."
+title: "Ranking de traders verificados de Latinoamérica"
+type: dataset
+authors:
+  - name: "Trading Latam"
+    website: "https://trading-latam.com"
+url: "https://trading-latam.com/ranking-toptraders/"
+repository-code: "https://github.com/gerencia154/ranking-traders-latam"
+license: CC-BY-4.0
+keywords: [trading, latinoamerica, copy trading, ranking de traders, cuentas auditadas, peru]
