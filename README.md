@@ -12,20 +12,20 @@ Este repositorio publica una copia abierta de esos datos, actualizada cada día 
 ## Top 10 actual
 
 <!-- TOP:INICIO -->
-**Actualizado: 2026-11-15** · 21 cuentas públicas verificadas
+**Actualizado: 2026-11-16** · 25 cuentas públicas verificadas
 
 | # | Trader o estrategia | Bróker | Plataforma | TL-Score | Calificación | Reporte en vivo |
 |---|---|---|---|---|---|---|
 | 1 | Stock Market Traders MX · PAMM | Vantage | MT5 | 83 | A | [ver reporte](https://trading-latam.com/auditor/report.php?slug=fe56b7e1d8d6706c833ab405) |
-| 2 | Aurea Capital | Vantage | MT5 | 80 | A | [ver reporte](https://trading-latam.com/auditor/report.php?slug=dea99ae7ec066cc164ea7587) |
-| 3 | Josep Pocalles | Otro | MT5 | 77 | B | [ver reporte](https://trading-latam.com/auditor/report.php?slug=9f6dbb756cb0ba1d83381723) |
-| 4 | Vibe Trader | VT Markets | MT4 | 76 | B | [ver reporte](https://trading-latam.com/auditor/report.php?slug=be04add94f2bf33cd69fef5c) |
-| 5 | MixMatch (BTCUSD-XAUUSD) | Vantage | MT5 | 76 | B | [ver reporte](https://trading-latam.com/auditor/report.php?slug=f20f7e1c1dc202469ce533a9) |
-| 6 | Vantageprincipal | Vantage | MT5 | 56 | C | [ver reporte](https://trading-latam.com/auditor/report.php?slug=e5e96aaeb7d112e7dba8604d) |
-| 7 | SAM_MORA_v1 | Vantage | MT5 | 34 | F | [ver reporte](https://trading-latam.com/auditor/report.php?slug=c0f676e97613262a859a8803) |
-| 8 | SAM_MORA_v2 | Otro | MT5 | 34 | F | [ver reporte](https://trading-latam.com/auditor/report.php?slug=d6fc6d073ff81079d9258193) |
-| 9 | IA Bot Public | Vantage | MT5 | 33 | F | [ver reporte](https://trading-latam.com/auditor/report.php?slug=1409bd57e5e7de5ada95b018) |
-| 10 | ADH-1 | LiteFinance | MT5 | 31 | F | [ver reporte](https://trading-latam.com/auditor/report.php?slug=e6cd3606581d32dc77585d91) |
+| 2 | Aurea Capital | Vantage | MT5 | 81 | A | [ver reporte](https://trading-latam.com/auditor/report.php?slug=dea99ae7ec066cc164ea7587) |
+| 3 | MixMatch (BTCUSD-XAUUSD) | Vantage | MT5 | 79 | B | [ver reporte](https://trading-latam.com/auditor/report.php?slug=f20f7e1c1dc202469ce533a9) |
+| 4 | Josep Pocalles | Otro | MT5 | 77 | B | [ver reporte](https://trading-latam.com/auditor/report.php?slug=9f6dbb756cb0ba1d83381723) |
+| 5 | Vibe Trader | VT Markets | MT4 | 76 | B | [ver reporte](https://trading-latam.com/auditor/report.php?slug=be04add94f2bf33cd69fef5c) |
+| 6 | Vantageprincipal | Vantage | MT5 | 57 | C | [ver reporte](https://trading-latam.com/auditor/report.php?slug=e5e96aaeb7d112e7dba8604d) |
+| 7 | Jeremy Urday - Trader profesional | Vantage | MT5 | 47 | D | [ver reporte](https://trading-latam.com/auditor/report.php?slug=11be2cd42b037cba3cb885e8) |
+| 8 | SAM_MORA_v1 | Vantage | MT5 | 34 | F | [ver reporte](https://trading-latam.com/auditor/report.php?slug=c0f676e97613262a859a8803) |
+| 9 | SAM_MORA_v2 | Otro | MT5 | 34 | F | [ver reporte](https://trading-latam.com/auditor/report.php?slug=d6fc6d073ff81079d9258193) |
+| 10 | IA Bot Public | Vantage | MT5 | 33 | F | [ver reporte](https://trading-latam.com/auditor/report.php?slug=1409bd57e5e7de5ada95b018) |
 <!-- TOP:FIN -->
 
 ## Archivos
