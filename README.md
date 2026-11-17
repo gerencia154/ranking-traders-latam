@@ -28,6 +28,14 @@ Este repositorio publica una copia abierta de esos datos, actualizada cada día 
 | 10 | IA Bot Public | Vantage | MT5 | 33 | F | [ver reporte](https://trading-latam.com/auditor/report.php?slug=1409bd57e5e7de5ada95b018) |
 <!-- TOP:FIN -->
 
+## Copias públicas y widget
+
+- [Hugging Face](https://huggingface.co/datasets/Williamcnv/ranking-traders-latam): CSV, JSON, licencia y cita.
+- [Kaggle](https://www.kaggle.com/datasets/tradinglatam/ranking-pblico-de-traders-de-trading-latam): CSV y JSON con su fuente y licencia.
+- [Widget del Top 5](https://gerencia154.github.io/widget/): bloque para insertar en otras webs. [Código de inserción](https://github.com/gerencia154/gerencia154.github.io#insertar-el-top-5).
+
+Las copias de Hugging Face y Kaggle son snapshots fechados; la actualización diaria de este repositorio no se replica automáticamente allí. Revisa la fecha de la fuente antes de comparar datos entre plataformas. El widget sí comparte el proceso diario de su página de GitHub Pages.
+
 ## Archivos
 
 | Archivo | Contenido |
