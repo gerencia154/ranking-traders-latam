@@ -1,5 +1,5 @@
 """Descarga el ranking público de Trading Latam y regenera los archivos del repositorio."""
-import csv, json, re, urllib.request, urllib.error, datetime, pathlib, time
+import csv, json, os, re, urllib.request, urllib.error, datetime, pathlib, time
 
 SRC = "https://trading-latam.com/ranking-toptraders/data.json"
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -23,6 +23,10 @@ def validate_ranking(data):
 
 
 def fetch_ranking():
+    downloaded = os.environ.get('RANKING_SOURCE_FILE')
+    if downloaded:
+        with open(downloaded, encoding='utf-8') as source:
+            return validate_ranking(json.load(source))
     req = urllib.request.Request(SRC, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"})
     for attempt in range(3):
         delay = 5 * (attempt + 1)

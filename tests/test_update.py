@@ -1,5 +1,6 @@
 import io
 import json
+import os
 from pathlib import Path
 import runpy
 import shutil
@@ -14,15 +15,18 @@ class Response(io.BytesIO):
     headers = {'Content-Type':'application/json'}
 
 class UpdateTests(unittest.TestCase):
-    def run_script(self, payloads):
+    def run_script(self, payloads, downloaded=None):
         with tempfile.TemporaryDirectory() as temp:
             root=Path(temp);(root/'scripts').mkdir();(root/'data/historico').mkdir(parents=True)
             script=root/'scripts/update.py';shutil.copyfile(SCRIPT,script)
             (root/'README.md').write_text('<!-- TOP:INICIO -->old<!-- TOP:FIN -->')
             for name in ['ranking.json','ranking.csv']:(root/'data'/name).write_bytes(b'previous verified snapshot')
+            if downloaded is not None:
+                (root/'downloaded.json').write_text(json.dumps(downloaded))
             before={str(f.relative_to(root)):f.read_bytes() for f in root.rglob('*') if f.is_file()}
             responses=[Response(json.dumps(x).encode() if isinstance(x,dict) else x) for x in payloads]
-            with patch('urllib.request.urlopen',side_effect=responses) as fetch,patch('time.sleep'):
+            environment = {'RANKING_SOURCE_FILE': str(root/'downloaded.json')} if downloaded is not None else {}
+            with patch.dict(os.environ, environment, clear=True),patch('urllib.request.urlopen',side_effect=responses) as fetch,patch('time.sleep'):
                 error=None
                 try:runpy.run_path(str(script),run_name='__main__')
                 except Exception as exc:error=exc
@@ -56,5 +60,14 @@ class UpdateTests(unittest.TestCase):
         payload={'status':'ok','date_modified':'2026-11-16','total':0,'strategies':[]}
         error,_,_,after=self.run_script([payload]);self.assertIsNone(error)
         self.assertEqual(json.loads(after['data/ranking.json'])['strategies'],[])
+
+    def test_validates_downloaded_source_without_second_http_request(self):
+        error,calls,_,after=self.run_script([], downloaded=VALID)
+        self.assertIsNone(error);self.assertEqual(calls,0)
+        self.assertEqual(json.loads(after['data/ranking.json'])['total'],1)
+
+    def test_invalid_downloaded_source_preserves_previous_snapshot(self):
+        error,calls,before,after=self.run_script([], downloaded=dict(VALID,total=2))
+        self.assertIsNotNone(error);self.assertEqual(calls,0);self.assertEqual(before,after)
 
 if __name__=='__main__':unittest.main()

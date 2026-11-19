@@ -14,7 +14,16 @@ jobs:
         with:
           python-version: "3.12"
       - run: python -B -m unittest discover -s tests -v
+      - name: Descargar fuente pública
+        run: >-
+          curl --fail --silent --show-error --max-time 60 --retry 2
+          --header 'Accept: application/json'
+          --user-agent 'TradingLatam-ranking/1.0 (+https://github.com/gerencia154/ranking-traders-latam)'
+          --output "$RUNNER_TEMP/ranking-source.json"
+          'https://trading-latam.com/ranking-toptraders/data.json'
       - run: python scripts/update.py
+        env:
+          RANKING_SOURCE_FILE: ${{ runner.temp }}/ranking-source.json
       - run: |
           git config user.name "Trading Latam"
           git config user.email "actions@users.noreply.github.com"
