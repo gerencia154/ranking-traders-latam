@@ -1,7 +1,7 @@
 {
   "name": "Ranking público de traders verificados de Latinoamérica",
   "description": "Estado actual de cuentas reales públicas verificadas por Trading Latam y ordenadas por TL-Score.",
-  "date_modified": "2026-11-20",
+  "date_modified": "2026-11-21",
   "methodology_url": "https://trading-latam.com/metodologia-ranking-traders/",
   "data_license": "https://creativecommons.org/licenses/by/4.0/",
   "status": "ok",
@@ -23,7 +23,7 @@
       "win_rate": 67.1,
       "trades_count": 140,
       "copyable": true,
-      "last_sync_at": "2026-11-20 19:43:07",
+      "last_sync_at": "2026-11-21 18:49:05",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=fe56b7e1d8d6706c833ab405"
     },
     {
@@ -33,15 +33,15 @@
       "platform": "MT5",
       "tl_score": 81,
       "tl_rating": "A",
-      "gain_pct": 56.42,
-      "monthly_pct": 5.82,
+      "gain_pct": 56.7,
+      "monthly_pct": 5.84,
       "drawdown_max": 6.24,
-      "profit_factor": 1.88,
-      "sharpe": 4.22,
-      "win_rate": 65.7,
-      "trades_count": 169,
+      "profit_factor": 1.89,
+      "sharpe": 4.24,
+      "win_rate": 65.9,
+      "trades_count": 170,
       "copyable": false,
-      "last_sync_at": "2026-11-20 18:15:53",
+      "last_sync_at": "2026-11-21 18:45:06",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=dea99ae7ec066cc164ea7587"
     },
     {
@@ -51,15 +51,15 @@
       "platform": "MT5",
       "tl_score": 79,
       "tl_rating": "B",
-      "gain_pct": 56.99,
-      "monthly_pct": 27.9,
+      "gain_pct": 57.3,
+      "monthly_pct": 28.05,
       "drawdown_max": 5.68,
-      "profit_factor": 2.33,
-      "sharpe": 8.71,
-      "win_rate": 82.1,
-      "trades_count": 123,
+      "profit_factor": 2.36,
+      "sharpe": 8.75,
+      "win_rate": 82.3,
+      "trades_count": 124,
       "copyable": false,
-      "last_sync_at": "2026-11-20 19:38:30",
+      "last_sync_at": "2026-11-21 18:18:16",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=f20f7e1c1dc202469ce533a9"
     },
     {
@@ -113,7 +113,7 @@
       "win_rate": 30.2,
       "trades_count": 126,
       "copyable": false,
-      "last_sync_at": "2026-11-20 19:31:26",
+      "last_sync_at": "2026-11-21 18:51:49",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=e5e96aaeb7d112e7dba8604d"
     },
     {
@@ -136,24 +136,6 @@
     },
     {
       "position": 8,
-      "strategy_alias": "MixMatch XAUUSD (4 Bots)",
-      "broker": "Otro",
-      "platform": "MT5",
-      "tl_score": 37,
-      "tl_rating": "D",
-      "gain_pct": 4.62,
-      "monthly_pct": 2.29,
-      "drawdown_max": 11.87,
-      "profit_factor": 1.04,
-      "sharpe": 0.98,
-      "win_rate": 65.1,
-      "trades_count": 436,
-      "copyable": false,
-      "last_sync_at": "2026-11-20 19:26:36",
-      "report_url": "https://trading-latam.com/auditor/report.php?slug=bcd131a9a1c4310e0518abf8"
-    },
-    {
-      "position": 9,
       "strategy_alias": "SAM_MORA_v1",
       "broker": "Vantage",
       "platform": "MT5",
@@ -167,11 +149,11 @@
       "win_rate": 59.9,
       "trades_count": 147,
       "copyable": false,
-      "last_sync_at": "2026-11-20 18:27:31",
+      "last_sync_at": "2026-11-21 18:23:29",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=c0f676e97613262a859a8803"
     },
     {
-      "position": 10,
+      "position": 9,
       "strategy_alias": "SAM_MORA_v2",
       "broker": "Otro",
       "platform": "MT5",
@@ -185,8 +167,26 @@
       "win_rate": 57.2,
       "trades_count": 173,
       "copyable": true,
-      "last_sync_at": "2026-11-20 19:40:53",
+      "last_sync_at": "2026-11-21 18:20:38",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=d6fc6d073ff81079d9258193"
+    },
+    {
+      "position": 10,
+      "strategy_alias": "MixMatch XAUUSD (4 Bots)",
+      "broker": "Otro",
+      "platform": "MT5",
+      "tl_score": 34,
+      "tl_rating": "F",
+      "gain_pct": 3.38,
+      "monthly_pct": 1.69,
+      "drawdown_max": 11.87,
+      "profit_factor": 1.04,
+      "sharpe": 1.02,
+      "win_rate": 65.4,
+      "trades_count": 442,
+      "copyable": false,
+      "last_sync_at": "2026-11-21 18:29:39",
+      "report_url": "https://trading-latam.com/auditor/report.php?slug=bcd131a9a1c4310e0518abf8"
     },
     {
       "position": 11,
@@ -221,7 +221,7 @@
       "win_rate": 39,
       "trades_count": 77,
       "copyable": false,
-      "last_sync_at": "2026-11-20 18:42:49",
+      "last_sync_at": "2026-11-21 18:39:44",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=e6cd3606581d32dc77585d91"
     },
     {
@@ -311,7 +311,7 @@
       "win_rate": 59,
       "trades_count": 139,
       "copyable": true,
-      "last_sync_at": "2026-11-20 19:29:03",
+      "last_sync_at": "2026-11-21 18:28:24",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=5f58c879f15dea069fd36bdd"
     },
     {
@@ -339,15 +339,15 @@
       "platform": "IBKR",
       "tl_score": 11,
       "tl_rating": "F",
-      "gain_pct": -26.09,
-      "monthly_pct": -5.28,
+      "gain_pct": -31.43,
+      "monthly_pct": -6.63,
       "drawdown_max": 41.15,
       "profit_factor": 0.5,
-      "sharpe": -1.94,
+      "sharpe": -2.33,
       "win_rate": 29.2,
       "trades_count": 48,
       "copyable": false,
-      "last_sync_at": "2026-11-20 19:26:36",
+      "last_sync_at": "2026-11-21 18:21:52",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=d31e1d82ff6c5736b298a380"
     },
     {
@@ -365,7 +365,7 @@
       "win_rate": 67,
       "trades_count": 88,
       "copyable": false,
-      "last_sync_at": "2026-11-20 19:24:53",
+      "last_sync_at": "2026-11-21 18:25:48",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=8d4be7bf158dca948a6b70aa"
     },
     {
@@ -471,9 +471,9 @@
       "profit_factor": 0.79,
       "sharpe": -1.65,
       "win_rate": 82.4,
-      "trades_count": 7613,
+      "trades_count": 7614,
       "copyable": false,
-      "last_sync_at": "2026-11-20 19:22:37",
+      "last_sync_at": "2026-11-21 18:36:13",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=8734e547be05a5625558f989"
     }
   ]
