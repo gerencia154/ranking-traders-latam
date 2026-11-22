@@ -12,7 +12,7 @@ Este repositorio publica una copia abierta de esos datos, actualizada cada día 
 ## Top 10 actual
 
 <!-- TOP:INICIO -->
-**Actualizado: 2026-11-21** · 26 cuentas públicas verificadas
+**Actualizado: 2026-11-22** · 26 cuentas públicas verificadas
 
 | # | Trader o estrategia | Bróker | Plataforma | TL-Score | Calificación | Reporte en vivo |
 |---|---|---|---|---|---|---|

@@ -1,7 +1,7 @@
 {
   "name": "Ranking público de traders verificados de Latinoamérica",
   "description": "Estado actual de cuentas reales públicas verificadas por Trading Latam y ordenadas por TL-Score.",
-  "date_modified": "2026-11-21",
+  "date_modified": "2026-11-22",
   "methodology_url": "https://trading-latam.com/metodologia-ranking-traders/",
   "data_license": "https://creativecommons.org/licenses/by/4.0/",
   "status": "ok",
@@ -23,7 +23,7 @@
       "win_rate": 67.1,
       "trades_count": 140,
       "copyable": true,
-      "last_sync_at": "2026-11-21 18:49:05",
+      "last_sync_at": "2026-11-22 19:13:12",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=fe56b7e1d8d6706c833ab405"
     },
     {
@@ -41,7 +41,7 @@
       "win_rate": 65.9,
       "trades_count": 170,
       "copyable": false,
-      "last_sync_at": "2026-11-21 18:45:06",
+      "last_sync_at": "2026-11-22 18:14:36",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=dea99ae7ec066cc164ea7587"
     },
     {
@@ -51,15 +51,15 @@
       "platform": "MT5",
       "tl_score": 79,
       "tl_rating": "B",
-      "gain_pct": 57.3,
-      "monthly_pct": 28.05,
+      "gain_pct": 59.29,
+      "monthly_pct": 29.02,
       "drawdown_max": 5.68,
-      "profit_factor": 2.36,
-      "sharpe": 8.75,
-      "win_rate": 82.3,
-      "trades_count": 124,
+      "profit_factor": 2.4,
+      "sharpe": 8.8,
+      "win_rate": 82.4,
+      "trades_count": 125,
       "copyable": false,
-      "last_sync_at": "2026-11-21 18:18:16",
+      "last_sync_at": "2026-11-22 18:49:32",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=f20f7e1c1dc202469ce533a9"
     },
     {
@@ -113,7 +113,7 @@
       "win_rate": 30.2,
       "trades_count": 126,
       "copyable": false,
-      "last_sync_at": "2026-11-21 18:51:49",
+      "last_sync_at": "2026-11-22 19:12:15",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=e5e96aaeb7d112e7dba8604d"
     },
     {
@@ -149,7 +149,7 @@
       "win_rate": 59.9,
       "trades_count": 147,
       "copyable": false,
-      "last_sync_at": "2026-11-21 18:23:29",
+      "last_sync_at": "2026-11-22 18:41:33",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=c0f676e97613262a859a8803"
     },
     {
@@ -167,7 +167,7 @@
       "win_rate": 57.2,
       "trades_count": 173,
       "copyable": true,
-      "last_sync_at": "2026-11-21 18:20:38",
+      "last_sync_at": "2026-11-22 18:55:01",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=d6fc6d073ff81079d9258193"
     },
     {
@@ -185,7 +185,7 @@
       "win_rate": 65.4,
       "trades_count": 442,
       "copyable": false,
-      "last_sync_at": "2026-11-21 18:29:39",
+      "last_sync_at": "2026-11-22 18:38:55",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=bcd131a9a1c4310e0518abf8"
     },
     {
@@ -221,7 +221,7 @@
       "win_rate": 39,
       "trades_count": 77,
       "copyable": false,
-      "last_sync_at": "2026-11-21 18:39:44",
+      "last_sync_at": "2026-11-22 18:52:33",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=e6cd3606581d32dc77585d91"
     },
     {
@@ -311,7 +311,7 @@
       "win_rate": 59,
       "trades_count": 139,
       "copyable": true,
-      "last_sync_at": "2026-11-21 18:28:24",
+      "last_sync_at": "2026-11-22 18:29:34",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=5f58c879f15dea069fd36bdd"
     },
     {
@@ -347,7 +347,7 @@
       "win_rate": 29.2,
       "trades_count": 48,
       "copyable": false,
-      "last_sync_at": "2026-11-21 18:21:52",
+      "last_sync_at": "2026-11-22 18:52:48",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=d31e1d82ff6c5736b298a380"
     },
     {
@@ -365,7 +365,7 @@
       "win_rate": 67,
       "trades_count": 88,
       "copyable": false,
-      "last_sync_at": "2026-11-21 18:25:48",
+      "last_sync_at": "2026-11-22 18:44:03",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=8d4be7bf158dca948a6b70aa"
     },
     {
@@ -473,7 +473,7 @@
       "win_rate": 82.4,
       "trades_count": 7614,
       "copyable": false,
-      "last_sync_at": "2026-11-21 18:36:13",
+      "last_sync_at": "2026-11-22 18:17:07",
       "report_url": "https://trading-latam.com/auditor/report.php?slug=8734e547be05a5625558f989"
     }
   ]
