@@ -12,20 +12,20 @@ Este repositorio publica una copia abierta de esos datos, actualizada cada día 
 ## Top 10 actual
 
 <!-- TOP:INICIO -->
-**Actualizado: 2026-11-22** · 26 cuentas públicas verificadas
+**Actualizado: 2026-11-23** · 26 cuentas públicas verificadas
 
 | # | Trader o estrategia | Bróker | Plataforma | TL-Score | Calificación | Reporte en vivo |
 |---|---|---|---|---|---|---|
 | 1 | Stock Market Traders MX · PAMM | Vantage | MT5 | 84 | A | [ver reporte](https://trading-latam.com/auditor/report.php?slug=fe56b7e1d8d6706c833ab405) |
 | 2 | Aurea Capital | Vantage | MT5 | 81 | A | [ver reporte](https://trading-latam.com/auditor/report.php?slug=dea99ae7ec066cc164ea7587) |
-| 3 | MixMatch (BTCUSD-XAUUSD) | Vantage | MT5 | 79 | B | [ver reporte](https://trading-latam.com/auditor/report.php?slug=f20f7e1c1dc202469ce533a9) |
+| 3 | MixMatch (BTCUSD-XAUUSD) | Vantage | MT5 | 80 | A | [ver reporte](https://trading-latam.com/auditor/report.php?slug=f20f7e1c1dc202469ce533a9) |
 | 4 | Josep Pocalles | Otro | MT5 | 77 | B | [ver reporte](https://trading-latam.com/auditor/report.php?slug=9f6dbb756cb0ba1d83381723) |
 | 5 | Vibe Trader | VT Markets | MT4 | 76 | B | [ver reporte](https://trading-latam.com/auditor/report.php?slug=be04add94f2bf33cd69fef5c) |
-| 6 | Vantageprincipal | Vantage | MT5 | 54 | C | [ver reporte](https://trading-latam.com/auditor/report.php?slug=e5e96aaeb7d112e7dba8604d) |
+| 6 | Vantageprincipal | Vantage | MT5 | 53 | C | [ver reporte](https://trading-latam.com/auditor/report.php?slug=e5e96aaeb7d112e7dba8604d) |
 | 7 | Jeremy Urday - Trader profesional | Vantage | MT5 | 47 | D | [ver reporte](https://trading-latam.com/auditor/report.php?slug=11be2cd42b037cba3cb885e8) |
-| 8 | SAM_MORA_v1 | Vantage | MT5 | 34 | F | [ver reporte](https://trading-latam.com/auditor/report.php?slug=c0f676e97613262a859a8803) |
-| 9 | SAM_MORA_v2 | Otro | MT5 | 34 | F | [ver reporte](https://trading-latam.com/auditor/report.php?slug=d6fc6d073ff81079d9258193) |
-| 10 | MixMatch XAUUSD (4 Bots) | Otro | MT5 | 34 | F | [ver reporte](https://trading-latam.com/auditor/report.php?slug=bcd131a9a1c4310e0518abf8) |
+| 8 | MixMatch XAUUSD (4 Bots) | Otro | MT5 | 35 | D | [ver reporte](https://trading-latam.com/auditor/report.php?slug=bcd131a9a1c4310e0518abf8) |
+| 9 | SAM_MORA_v1 | Vantage | MT5 | 34 | F | [ver reporte](https://trading-latam.com/auditor/report.php?slug=c0f676e97613262a859a8803) |
+| 10 | SAM_MORA_v2 | Otro | MT5 | 34 | F | [ver reporte](https://trading-latam.com/auditor/report.php?slug=d6fc6d073ff81079d9258193) |
 <!-- TOP:FIN -->
 
 ## Copias públicas y widget
